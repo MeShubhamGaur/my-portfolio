@@ -33,7 +33,7 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
     // Home button click -> refresh or navigate
     const homeBtn = document.getElementById("home-btn");
     homeBtn.addEventListener("click", () => {
-      if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
+      if (window.location.pathname.endsWith("index.html")) {
         window.location.reload();
       } else {
         window.location.href = "index.html";
