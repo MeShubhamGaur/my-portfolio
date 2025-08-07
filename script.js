@@ -36,7 +36,7 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
       if (window.location.pathname === "/" || window.location.pathname.endsWith("index.html")) {
         window.location.reload();
       } else {
-        window.location.href = "/";
+        window.location.href = "index.html";
       }
     });
 
