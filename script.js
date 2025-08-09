@@ -30,39 +30,4 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
 
     type();
 
-    // Home button click -> refresh or navigate
-    const homeBtn = document.getElementById("home-btn");
-    homeBtn.addEventListener("click", () => {
-      if (window.location.pathname.endsWith("index.html")) {
-        window.location.reload();
-      } else {
-        window.location.href = "index.html";
-      }
-    });
-
-    const aboutBtn = document.getElementById("about-btn");
-    aboutBtn.addEventListener("click", () => {
-      if (window.location.pathname.endsWith("about.html")) {
-        window.location.reload();
-      } else {
-        window.location.href = "about.html";
-      }
-    });
-
-    const skillsBtn = document.getElementById("skills-btn");
-    skillsBtn.addEventListener("click", () => {
-      if (window.location.pathname.endsWith("skills.html")) {
-        window.location.reload();
-      } else {
-        window.location.href = "skills.html";
-      }
-    });
-
-    const contactBtn = document.getElementById("contact-btn");
-    contactBtn.addEventListener("click", () => {
-      if (window.location.pathname.endsWith("contact.html")) {
-        window.location.reload();
-      } else {
-        window.location.href = "contact.html";
-      }
-    });
+  

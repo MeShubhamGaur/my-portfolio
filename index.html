@@ -11,25 +11,26 @@
 </head>
 
 <body>
-
+  <!-- Navigation Section*/ -->
   <nav>
     <h2></h2>
     <ul>
-      <li id="home-btn">Home</li>
-      <li id="about-btn">About</li>
-      <li id="skills-btn">Skills</li>
-      <li id="contact-btn">Contact</li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <div class="container">
+  <!-- Home Section*/ -->
+  <div id="home" class="container">
     <div class="left">
       <h2>Hello, It's Me</h2>
       <h1>Shubham Gaur</h1>
       <h3>And I'm a <span id="typing">Test Automation</span></h3>
       <p>
-    I'm not your typical Test Automation Engineer — I'm a curious builder, problem-solver, and lifelong learner who loves to tinker with code, tools, and ideas. Whether it's writing scalable test frameworks, experimenting with AI in QA, or just geeking out over the latest dev tools, I bring more to the table than just automation scripts.
-  </p>
+        I'm not your typical Test Automation Engineer — I'm a curious builder, problem-solver, and lifelong learner who loves to tinker with code, tools, and ideas. Whether it's writing scalable test frameworks, experimenting with AI in QA, or just geeking out over the latest dev tools, I bring more to the table than just automation scripts.
+      </p>
       <a href="files\ShubhamGaur_Resume.pdf" download>
         <button class="cv-button">Download CV</button>
       </a>
@@ -55,6 +56,89 @@
     </div>
   </div>
 
+  <!-- About Section*/ -->
+  <div id="about" class="container">
+    <section class="about-section">
+      <h2 class="section-title">A Bit About Me</h2>
+      <div class="about-content">
+        <p>
+          Hey! I’m Shubham Gaur — a <em>tech enthusiast</em>, curious problem-solver, and a self-confessed automation nerd who loves building things that actually work.
+        </p>
+
+        <p>
+          By day, I’m a Senior Test Automation Engineer, helping teams ship quality software faster and smarter. By night (and sometimes during coffee breaks), I’m diving into the latest in AI and automation technology — because why not make testing cooler?
+        </p>
+
+        <p>
+          Over the last 4+ years, I’ve worked across multiple domains, building solid, scalable automation frameworks using <code>C#</code>, <code>Python</code>, <code>Selenium</code>, <code>Appium</code>, and <code>Playwright</code>. I’ve explored CI/CD pipelines and even brought some AI magic into the QA process.
+        </p>
+
+        <p>
+          Beyond the buzzwords, I love learning, experimenting, and improving how we build and test software. I’ve led projects, mentored teammates, and I’m always looking for that next interesting problem to solve.
+        </p>
+
+        <p>
+          When I’m not deep in code or tinkering with tools, you’ll find me sketching out new project ideas, or geeking out over the newest trends in tech.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Skills Section*/ -->
+  <div id="skills" class="container">
+    <section class="skills-section">
+      <h2 class="section-title">Skills</h2>
+      <p class="skills-intro">I enjoy diving into and learning new things. Here’s a list of technologies I’ve worked with:</p>
+
+      <div class="skills-grid">
+        <div class="skill-box">C#</div>
+        <div class="skill-box">Java</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">Selenium</div>
+        <div class="skill-box">Appium</div>
+        <div class="skill-box">Playwright</div>
+        <div class="skill-box">NUnit</div>
+        <div class="skill-box">Postman</div>
+        <div class="skill-box">Azure DevOps</div>
+        <div class="skill-box">JIRA</div>
+        <div class="skill-box">MySQL</div>
+        <div class="skill-box">Git</div>
+        <div class="skill-box">Gen AI</div>
+        <div class="skill-box">Visual Studio</div>
+        <div class="skill-box">VS Code</div>
+      </div>
+    </section>
+  </div> 
+
+  <!-- Contact Section*/ -->
+  <div id="contact" class="container">
+    <section class="contact-section">
+      <h3 class="section-title">Let's Get In Touch</h3>
+
+      <div class="contact-content">
+        <!-- Left Column -->
+        <div class="contact-info">
+          <div class="info-box">
+            <span>+91 98140 70637</span>
+          </div>
+          <div class="info-box">
+            <span>shubhamgaur22091999@gmail.com</span>
+          </div>
+          <div class="info-box">
+            <span>Chandigarh, India</span>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </div>
 
   <!-- Typewriter Effect (Optional) -->
   <script src="script.js"></script>

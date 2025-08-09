@@ -8,14 +8,25 @@
 body {
   background-color: #0b1c0b;
   color: white;
+  padding-top: 80px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 80px;
+  padding: 25px 80px;
   background-color: #0b1c0b;
+  position: fixed;       /* stays at top */
+  top: 0;                /* aligns to very top */
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
 }
 
 nav h2 {
@@ -25,23 +36,21 @@ nav h2 {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 25px; /* 🔼 wider spacing between buttons */
-  padding-right: 20px;
+  list-style: none;
 }
 
 nav ul li {
-  cursor: pointer;
-  font-size: 18px; /* 🔼 slightly larger text */
-  font-weight: 600;
-  padding: 10px 16px; /* 🔼 more tappable area */
-  transition: color 0.3s, background-color 0.3s;
-  border-radius: 6px;
+  margin: 0 15px;
 }
 
-nav ul li:hover {
-  color: #03c10d;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00ff88;
 }
 
 
@@ -148,7 +157,7 @@ nav ul li:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .container {
+  section, .container {
     flex-direction: column;
     text-align: center;
     padding: 40px;
