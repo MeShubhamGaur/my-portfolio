@@ -6,9 +6,22 @@
 }
 
 body {
-  background-color: #0b1c0b;
+  /*background-color: #0b1c0b;*/
+  background: url('images/background.png') no-repeat center center fixed; 
+  background-size: cover; /* make it fill the whole screen */
   color: white;
   padding-top: 80px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* adjust darkness */
+  z-index: -1; /* keep it behind content */
 }
 
 html {
@@ -16,16 +29,26 @@ html {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+  background: 
+    linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.4) 100%),  
+    url('images/background.jpg') center/cover no-repeat;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 80px;
-  background-color: #0b1c0b;
-  position: fixed;       /* stays at top */
-  top: 0;                /* aligns to very top */
+  /*background-color: #0b1c0b;
+  position: fixed;       
+  top: 0;                
   left: 0;
   width: 100%;
-  z-index: 1000; 
+  z-index: 1000;*/
 }
 
 nav h2 {
