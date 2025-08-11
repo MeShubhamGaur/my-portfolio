@@ -29,5 +29,4 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
     }
 
     type();
-
-  
+    
