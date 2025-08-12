@@ -430,6 +430,7 @@ nav ul li a:hover {
   .container {
     padding: 40px 20px;
     flex-direction: column;
+    align-items: center; /* centers all child elements */
     text-align: center;
   }
 
@@ -441,6 +442,7 @@ nav ul li a:hover {
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 0.8rem;
+    justify-items: center; /* centers items inside cells */
   }
 
   .skill-box {
@@ -449,6 +451,7 @@ nav ul li a:hover {
     font-size: 14px;
     flex-direction: column;
     gap: 0.4rem;
+    max-width: 180px; /* prevents overly wide boxes */
   }
 
   .skill-box i,
@@ -471,11 +474,3 @@ nav ul li a:hover {
     text-align: center;
   }
 }
-
-@media (max-width: 480px) {
-  .left h1 { font-size: 28px; }
-  .left h2 { font-size: 22px; }
-  .left p { font-size: 14px; }
-}
-
-
