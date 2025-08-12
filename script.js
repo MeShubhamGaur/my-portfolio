@@ -34,3 +34,9 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
 document.querySelector('.menu-toggle').addEventListener('click', () => {
   document.querySelector('nav').classList.toggle('active');
 });
+
+document.querySelectorAll('nav ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('nav').classList.remove('active');
+  });
+});
