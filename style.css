@@ -530,7 +530,7 @@ nav ul li a:hover {
 
   .contact-info,
   .contact-button-container {
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
   }
 }
