@@ -395,3 +395,87 @@ nav ul li a:hover {
   transform: scale(1.05);
 }
 
+/* Your existing CSS remains unchanged until the end */
+
+/* MOBILE STYLES */
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    display: none;
+    margin-top: 10px;
+  }
+
+  nav.active ul {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+  }
+
+  .container {
+    padding: 40px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left h2 { font-size: 28px; padding-top: 20px; }
+  .left h1 { font-size: 36px; }
+  .left p { font-size: 16px; }
+  .right img { width: 220px; height: 220px; }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .skill-box {
+    height: auto;
+    padding: 0.8rem;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .skill-box i,
+  .skill-box img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .contact-info, .contact-button-container {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .left h1 { font-size: 28px; }
+  .left h2 { font-size: 22px; }
+  .left p { font-size: 14px; }
+}
+
+

@@ -30,3 +30,7 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
 
     type();
     
+
+document.querySelector('.menu-toggle').addEventListener('click', () => {
+  document.querySelector('nav').classList.toggle('active');
+});
