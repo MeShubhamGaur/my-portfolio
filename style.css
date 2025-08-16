@@ -585,6 +585,8 @@ nav.active ul {
   .about-content p {
   font-size: 1.06rem;
   line-height: 1.8;
+  width: 100%;
+  text-align: left;
   }
 
   /* Skills Section */
