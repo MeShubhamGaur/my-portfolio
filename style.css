@@ -10,9 +10,8 @@ body {
   background-size: cover;
   color: white;
   line-height: 1.6;
-  background-color: url('images/background.png');
+  background-color: #000902;
 }
-
 
 body::before {
   content: "";
