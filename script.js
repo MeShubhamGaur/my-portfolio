@@ -31,12 +31,31 @@ const textArray = ["Test Automation Engineer", "Tech Enthusiast"];
     type();
     
 
-document.querySelector('.menu-toggle').addEventListener('click', () => {
-  document.querySelector('nav').classList.toggle('active');
+const nav = document.querySelector('nav');
+const toggle = document.querySelector('.menu-toggle');
+
+// Toggle menu on hamburger click
+toggle.addEventListener('click', () => {
+  nav.classList.toggle('active');
 });
 
+// Close menu when a nav link is clicked
 document.querySelectorAll('nav ul li a').forEach(link => {
   link.addEventListener('click', () => {
-    document.querySelector('nav').classList.remove('active');
+    nav.classList.remove('active');
   });
+});
+
+// Close menu when scrolling
+window.addEventListener('scroll', () => {
+  if (nav.classList.contains('active')) {
+    nav.classList.remove('active');
+  }
+});
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+  if (nav.classList.contains('active') && !nav.contains(e.target) && e.target !== toggle) {
+    nav.classList.remove('active');
+  }
 });
