@@ -15,9 +15,9 @@ body {
   background-size: cover;
   background-color: #050e01;
   background-attachment: fixed;
-  -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
+  -webkit-overflow-scrolling: touch; 
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
   /* background: #081c02;
   linear-gradient(
     to bottom,
@@ -41,7 +41,7 @@ body::before {
 
   /* force GPU compositing for smoother painting */
   transform: translateZ(0);
-  will-change: opacity, transform;
+  /* will-change: opacity, transform; */
 }
 
 html {
@@ -53,16 +53,18 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 9999;
 
   background: 
-    linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.4) 100%),  
-    url('images/background.jpg') center/cover no-repeat;
+    linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.4) 100%);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 80px;
+
+  transform: translateZ(0);
+  /* will-change: auto; */
 }
 
 nav h2 {
@@ -98,7 +100,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
   -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
 }
 
 .section-title {
@@ -122,7 +124,7 @@ nav ul li a:hover {
   margin-top: -3%;
   -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
 }
 
 .section-title-skills {
@@ -234,7 +236,7 @@ nav ul li a:hover {
     padding: 40px;
     -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
     backface-visibility: hidden;
-    will-change: transform;
+    /* will-change: transform; */
   }
 
   .left {
@@ -421,7 +423,7 @@ nav ul li a:hover {
   margin-top: 5%;
   -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
 }
 
 .reach-out-btn {
@@ -521,7 +523,7 @@ nav.active ul {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
     backface-visibility: hidden;
-    will-change: transform;
+    /* will-change: transform; */
   }
 
   .container-skills {
@@ -534,7 +536,7 @@ nav.active ul {
     margin-top: -17%;
     -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
   }
 
   /* Home Section */
@@ -629,7 +631,7 @@ nav.active ul {
     text-align: center;
     -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
-  will-change: transform;
+  /* will-change: transform; */
   }
 
   .info-box{
