@@ -10,10 +10,10 @@ body {
   /* background-size: cover; */
   color: white;
   line-height: 1.6;
-  background: linear-gradient(to bottom, #071602 0%, #0a2404 45%, #071602 100%);
+  background: linear-gradient(to bottom, #050e01 0%, #0d3205 45%, #050e01 100%);
   background-attachment: scroll; /* safe on mobile */
   background-size: cover;
-  background-color: #000100;
+  background-color: #050e01;
   background-attachment: fixed;
   -webkit-overflow-scrolling: touch; /* smooth iOS scrolling */
   backface-visibility: hidden;
