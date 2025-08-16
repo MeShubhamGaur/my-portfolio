@@ -6,11 +6,17 @@
 }
 
 body {
-  background: url('images/background.png') no-repeat center center fixed; 
-  background-size: cover;
+  /* background: url('images/background.png') no-repeat center center fixed;  */
+  /* background-size: cover; */
   color: white;
   line-height: 1.6;
-  background-color: #000902;
+  background: linear-gradient(
+    to bottom,
+    #081c02 0%,
+    #133c07 40%,
+    #081c02 100%);
+  /* background-attachment: fixed; */
+    
 }
 
 body::before {
