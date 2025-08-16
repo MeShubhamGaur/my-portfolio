@@ -426,18 +426,18 @@ nav ul li a:hover {
   nav ul {
     position: absolute;
     top: 100%;          /* right below nav */
-    right: 15px;        /* align with toggle */
+    right: 15px;       /* align with toggle */
     flex-direction: column;
     gap: 6px;
-    width: 100%;
+    width: 90%;
     background: 
-    linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.4) 100%),  
+    linear-gradient(to right, rgba(0,0,0,0.9) 100%, rgba(0,0,0,0.9) 100%, rgba(0,0,0,0.9) 100%),  
     url('images/background.jpg') center/cover no-repeat;
     display: none;
     min-width: 150px;   /* give dropdown some width */
     list-style: none;
     margin: 0;
-    padding: 0px 5px;  /* gives breathing space */
+    padding: 0px 5px 5px;  /* gives breathing space */
     border-radius: 6px;
   }
 
