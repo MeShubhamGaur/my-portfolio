@@ -356,7 +356,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: rgba(9, 66, 22, 0.15);
+  background-color: rgba(18, 138, 44, 0.15);
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
