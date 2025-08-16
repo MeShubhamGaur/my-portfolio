@@ -11,7 +11,7 @@ body {
   color: white;
   line-height: 1.6;
   background: linear-gradient(to bottom, #050e01 0%, #0d3205 45%, #050e01 100%);
-  background-attachment: scroll; /* safe on mobile */
+  /* background-attachment: scroll;  */
   background-size: cover;
   background-color: #050e01;
   background-attachment: fixed;
