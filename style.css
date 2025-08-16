@@ -10,13 +10,14 @@ body {
   /* background-size: cover; */
   color: white;
   line-height: 1.6;
-  background: linear-gradient(
+  background: #081c02;
+  /* linear-gradient(
     to bottom,
     #081c02 0%,
-    #1a4e0b 40%,
+    #133c07 40%,
     #081c02 100%);
   background-attachment: fixed;
-  background-color: #081c02;
+  background-color: 081c02; */
     
 }
 
