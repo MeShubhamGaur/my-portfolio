@@ -15,7 +15,8 @@ body {
     #081c02 0%,
     #133c07 40%,
     #081c02 100%);
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
+  background-color: #081c02;
     
 }
 
