@@ -596,7 +596,7 @@ nav ul li a:hover {
   .about-content p {
     font-size: 1.06rem;
     line-height: 1.8;
-    width: 100%;
+    width: 102%;
     text-align: left;
   }
 
@@ -624,6 +624,14 @@ nav ul li a:hover {
     padding: 0.7rem 1rem;
     font-size: 0.95rem;
   }
+
+  .skills-intro {
+  text-align: left;
+  margin-left: 6%;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
 
   /* Contact Section */
   .contact-content {
