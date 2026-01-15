@@ -597,7 +597,7 @@ nav ul li a:hover {
     font-size: 1.06rem;
     line-height: 1.8;
     width: 102%;
-    text-align: left;
+    text-align: center;
   }
 
   /* Skills Section - Mobile */
@@ -627,7 +627,7 @@ nav ul li a:hover {
 
   .skills-intro {
   text-align: left;
-  margin-left: 6%;
+  margin-left: 4%;
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: #ffffff;
