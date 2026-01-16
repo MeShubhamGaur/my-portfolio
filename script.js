@@ -1,4 +1,4 @@
-const textArray = ["Applied Machine Learning Engineer", "Tech Enthusiast"];
+const textArray = ["Applied ML Engineer", "Tech Enthusiast"];
     let index = 0;
     let charIndex = 0;
     let currentText = "";
