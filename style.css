@@ -596,17 +596,14 @@ nav ul li a:hover {
   .about-content p {
     font-size: 1.06rem;
     line-height: 1.8;
-    width: 103%;
-    text-align: left;
-    padding: 0;
-    margin: 0 0 1.5rem 0;
-}
-
+    /* width: 103%; */
+    text-align: center;
+  }
   .about-content {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
+      width: 115%;
+      padding-left: -5%;
+      margin-left: -5%;    
+  }
 
   /* Skills Section - Mobile */
   .skills-categories {
